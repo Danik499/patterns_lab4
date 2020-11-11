@@ -12,9 +12,9 @@ p1.paymentMethodDiscount(.1)
 p1.personalDiscount(.2)
 
 p2.nightTimeDiscount(.05)
-p2.categoriesDiscount(.05)
+p2.categoriesDiscount(.15)
 p2.paymentMethodDiscount(.1)
-p2.personalDiscount(.2)
+p2.personalDiscount(.25)
 
 console.log(`${p1.buyer} had to pay ${p1.price}. ${p1.buyer} payed ${p1.getTotalPrice()}`)
 console.log(`${p2.buyer} had to pay ${p2.price}. ${p2.buyer} payed ${p2.getTotalPrice()}`)
